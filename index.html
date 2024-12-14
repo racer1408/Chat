@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="username-prompt">
+    <p>Enter your username:</p>
+    <input type="text" id="username-input" placeholder="Type your name..." />
+    <button id="set-username">Start Chat</button>
+  </div>
+
+  <div class="chat-container" style="display: none;">
+    <div class="username-display">
+      <p>Your username: <span id="username-display"></span></p>
+    </div>
+    <div class="chat-area"></div>
+    <div class="input-area">
+      <input type="text" placeholder="Type your message...">
+      <button>Send</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
